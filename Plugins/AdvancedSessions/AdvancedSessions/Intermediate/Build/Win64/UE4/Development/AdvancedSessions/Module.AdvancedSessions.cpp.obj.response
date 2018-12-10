@@ -22,7 +22,7 @@
 /wd4838
 /we4668
 /I .
-/I C:\Users\Ryan\Downloads\4.20Multi\MultiplayerTemplate\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private
+/I C:\Users\Ryan\Documents\repos\FlyingSoloMultiPlayer\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4\Inc\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem\Source
@@ -76,10 +76,10 @@
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Classes
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Public
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils
-/I C:\Users\Ryan\Downloads\4.20Multi\MultiplayerTemplate\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Inc\AdvancedSessions
-/I C:\Users\Ryan\Downloads\4.20Multi\MultiplayerTemplate\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Source
-/I C:\Users\Ryan\Downloads\4.20Multi\MultiplayerTemplate\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes
-/I C:\Users\Ryan\Downloads\4.20Multi\MultiplayerTemplate\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions
+/I C:\Users\Ryan\Documents\repos\FlyingSoloMultiPlayer\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Inc\AdvancedSessions
+/I C:\Users\Ryan\Documents\repos\FlyingSoloMultiPlayer\Plugins\AdvancedSessions\AdvancedSessions\Source
+/I C:\Users\Ryan\Documents\repos\FlyingSoloMultiPlayer\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes
+/I C:\Users\Ryan\Documents\repos\FlyingSoloMultiPlayer\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions
 /I ..\Intermediate\Build\Win64\UE4\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
 /I Runtime\CoreUObject
@@ -96,6 +96,7 @@
 /I Runtime\Engine
 /I Runtime\Engine\Public\AI
 /I Runtime\Engine\Public\AI\Navigation
+/I Runtime\Engine\Public\Analytics
 /I Runtime\Engine\Public\Animation
 /I Runtime\Engine\Public\Curves
 /I Runtime\Engine\Public\EdGraph
@@ -104,6 +105,8 @@
 /I Runtime\Engine\Public\PacketHandlers
 /I Runtime\Engine\Public\Performance
 /I Runtime\Engine\Public\Physics
+/I Runtime\Engine\Public\Physics\Experimental
+/I Runtime\Engine\Public\Physics\ImmediatePhysics
 /I Runtime\Engine\Public\ProfilingDebugging
 /I Runtime\Engine\Public\Rendering
 /I Runtime\Engine\Public\Slate
@@ -122,13 +125,13 @@
 /I Runtime\SlateCore\Public\Animation
 /I Runtime\SlateCore\Public\Application
 /I Runtime\SlateCore\Public\Brushes
+/I Runtime\SlateCore\Public\Debugging
 /I Runtime\SlateCore\Public\Fonts
 /I Runtime\SlateCore\Public\Input
 /I Runtime\SlateCore\Public\Layout
 /I Runtime\SlateCore\Public\Logging
 /I Runtime\SlateCore\Public\Rendering
 /I Runtime\SlateCore\Public\Sound
-/I Runtime\SlateCore\Public\Stats
 /I Runtime\SlateCore\Public\Styling
 /I Runtime\SlateCore\Public\Textures
 /I Runtime\SlateCore\Public\Types
@@ -211,6 +214,8 @@
 /I ..\Intermediate\Build\Win64\UE4\Inc\MeshDescription
 /I Runtime\MeshDescription\Public
 /I Runtime\MeshDescription
+/I Runtime\PakFile\Public
+/I Runtime\PakFile
 /I ..\Intermediate\Build\Win64\UE4\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
@@ -229,18 +234,18 @@
 /I ..\Intermediate\Build\Win64\UE4\Inc\AnimationCore
 /I Runtime\AnimationCore\Public
 /I Runtime\AnimationCore
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
 /D_HAS_EXCEPTIONS=0
-/FI"C:\Users\Ryan\Downloads\4.20Multi\MultiplayerTemplate\MultiplayerTemplate\Intermediate\Build\Win64\MultiplayerTemplate\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Ryan\Downloads\4.20Multi\MultiplayerTemplate\MultiplayerTemplate\Intermediate\Build\Win64\MultiplayerTemplate\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Ryan\Downloads\4.20Multi\MultiplayerTemplate\MultiplayerTemplate\Intermediate\Build\Win64\MultiplayerTemplate\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Ryan\Downloads\4.20Multi\MultiplayerTemplate\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\Module.AdvancedSessions.cpp"
-/FI"C:\Users\Ryan\Downloads\4.20Multi\MultiplayerTemplate\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
-/Fo"C:\Users\Ryan\Downloads\4.20Multi\MultiplayerTemplate\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\Module.AdvancedSessions.cpp.obj"
+/FI"C:\Users\Ryan\Documents\repos\FlyingSoloMultiPlayer\Intermediate\Build\Win64\MultiplayerTemplate\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Ryan\Documents\repos\FlyingSoloMultiPlayer\Intermediate\Build\Win64\MultiplayerTemplate\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Ryan\Documents\repos\FlyingSoloMultiPlayer\Intermediate\Build\Win64\MultiplayerTemplate\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Ryan\Documents\repos\FlyingSoloMultiPlayer\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\Module.AdvancedSessions.cpp"
+/FI"C:\Users\Ryan\Documents\repos\FlyingSoloMultiPlayer\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
+/Fo"C:\Users\Ryan\Documents\repos\FlyingSoloMultiPlayer\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\Module.AdvancedSessions.cpp.obj"
 /TP
 /GR-
 /W4
